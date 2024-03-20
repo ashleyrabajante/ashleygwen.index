@@ -1,0 +1,235 @@
+ <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f8f9fa; /* Light gray background */
+        }
+
+        /* Navbar */
+        #menu.navbar {
+            background-color: #228B22 !important; /* Dark gray navbar */
+        }
+
+        #menu.navbar-dark .navbar-nav .nav-link {
+            color: #ffffff !important; /* White nav links */
+        }
+
+        #menu.navbar-dark .navbar-brand {
+            color: #ffffff !important; /* White brand text */
+        }
+
+        #menu.navbar-dark .navbar-toggler-icon {
+            background-color: #ffffff; /* White toggler icon */
+        }
+
+        #menu.navbar-dark .navbar-toggler {
+            border-color: #ffffff; /* White toggler border */
+        }
+
+/* Header Section */
+#header {
+    background: url('https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/429769102_817678847052991_2708573989101953871_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8fffu3pk8ugAX8NDmrl&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfDJJge18Q-1lIsQfLshGGxOLxvwk4AbyQVxeWrIWjj1Ag&oe=65FDE2DA') center center no-repeat;
+    background-color: #ffffff; /* Fallback background color */
+    background-size: contain; /* Ensure entire image is visible */
+    background-position: center; /* Center the background image */
+    position: relative;
+    color: #fff;
+    padding: 400px 0;
+}
+
+
+
+        /* Features Section */
+        #features {
+            padding: 100px 0;
+            background-color: #ffffff; /* White background */
+        }
+
+        .feature {
+            margin-bottom: 30px;
+        }
+
+        .feature i {
+            font-size: 48px;
+            color: #007bff; /* Blue icon color */
+        }
+
+        .feature h3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 24px; /* Adjust font size */
+            color: #333; /* Change title color */
+            font-weight: bold; /* Make the title bold */
+            text-transform: uppercase; /* Uppercase the title */
+        }
+
+        /* Best Selling Menu Items Section */
+        #best-selling-menu-items {
+            background-color: #ffffff; /* White background */
+            padding: 50px 0; /* Adjust padding as needed */
+        }
+
+        /* About Section */
+        #about {
+            padding: 100px 0;
+        }
+
+        .about-img img {
+            width: 100%; /* Ensure the image fills its container */
+            border-radius: 10px; /* Add rounded corners to the image */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+        }
+
+        .about-text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-text h2 {
+    color: #333; /* Change the title color */
+    font-size: 32px; /* Increase title font size */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.about-text p {
+    color: #333; /* Change the paragraph text color to dark */
+    font-size: 16px; /* Adjust paragraph font size */
+    font-weight: bold; /* Make the paragraph bold */
+}
+
+.bordered-section {
+    border-top: 4px solid #98FB98; /* Add top border with a thickness of 4px and color #98FB98 */
+    border-bottom: 4px solid #98FB98; /* Add bottom border with a thickness of 4px and color #98FB98 */
+    padding-top: 40px; /* Add space above the border */
+    padding-bottom: 40px; /* Add space below the border */
+}
+
+
+
+
+        /* Restaurant Menu Section */
+        #restaurant-menu {
+            padding: 100px 0;
+        }
+
+        .menu-item {
+            margin-bottom: 30px;
+        }
+
+        .menu-item img {
+            border-radius: 10px; /* Rounded corners for menu item images */
+        }
+
+        .menu-item h5 {
+            font-size: 20px; /* Adjust menu item title font size */
+            color: #333; /* Change menu item title color */
+            font-weight: bold; /* Make menu item title bold */
+            margin-bottom: 10px; /* Add spacing below the title */
+        }
+
+        .menu-item p {
+            font-size: 16px; /* Adjust menu item description font size */
+            color: #666; /* Change menu item description color */
+        }
+
+        .menu-item .price {
+            font-size: 18px; /* Adjust price font size */
+            color:  #228B22; /* Change price color */
+            font-weight: bold; /* Make price bold */
+        }
+		/* Default color for "Order Now" button */
+.btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+/* Change color of "Order Now" button on hover */
+.btn-primary:hover {
+    background-color: orange;
+    border-color: orange;
+}
+
+    /* Custom CSS to ensure consistent card size */
+    .card {
+        height: 100%;
+    }
+
+    .menu-item {
+        height: 100%;
+    }
+        /* Contact Section */
+        #contact {
+            padding: 80px 0;
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+        .contact-title {
+            color: #333; /* Title color */
+            font-size: 24px; /* Title font size */
+            font-weight: bold; /* Make title bold */
+            margin-bottom: 20px; /* Add spacing below the title */
+        }
+
+        .contact-item p {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            background-color: #f9f9f9; /* Form background color */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Form box shadow */
+        }
+
+        .contact-form h3 {
+            margin-bottom: 30px;
+        }
+
+        .contact-form .form-control {
+            border-radius: 5px; /* Form input border radius */
+        }
+
+        .contact-form textarea {
+            resize: none; /* Prevent textarea resizing */
+        }
+
+        .btn-custom {
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            border-radius: 5px; /* Button border radius */
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3; /* Button background color on hover */
+        }
+/* Custom Styles */
+.btn-custom {
+    background-color: green; /* Set button background color to green */
+    color: #fff; /* Set text color to white */
+}
+
+.btn-custom:hover {
+    background-color: orange; /* Change button background color to yellow on hover */
+    color: #fff; /* Maintain text color as white on hover */
+}
+
+       /* Footer Styles */
+footer {
+    background-color: #228B22; /* Dark background for the footer */
+    color: #fff; /* White text for the footer */
+    padding: 20px 0; /* Add padding to the footer */
+    text-align: center; /* Center-align text */
+}
+
+/* Links in Footer */
+footer a {
+    color: #fff; /* White color for links */
+}
+
+/* Hover Styles for Links in Footer */
+footer a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: #98FB98; /* Change color on hover */
+}
+    </style>
